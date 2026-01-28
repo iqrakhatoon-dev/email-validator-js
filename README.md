@@ -5,11 +5,11 @@ This project validates email addresses using an external API and displays real-t
 
 **This project uses EmailValidation.io**
 ## Steps to run:
-Create a free account on EmailValidation.io
-Generate your API key
-Open app.js
-Replace Enter-Your-API-KEY-HERE with your own key
-Example: const apiKey = "xxxxxxxxx";
+1. Create a free account on EmailValidation.io
+2. Generate your API key
+3. Open app.js
+4. Replace Enter-Your-API-KEY-HERE with your own key
+5. Example: const apiKey = "xxxxxxxxx";
 
 ## 🚀 Features
 
