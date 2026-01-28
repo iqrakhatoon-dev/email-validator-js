@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 25px;
+}
+
+ul {
+  display: flex;
+}
+
+.logo {
+  padding: 20px 25px 20px 25px;
+  font-size: 20px;
+  color: rgb(255, 174, 0);
+}
+
+.logo img{
+    width: 18px;
+    padding: 2px;
+}
+
+ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  color: rgb(174, 180, 191);
+}
+
+main{
+    min-height: 87vh;
+}
+
+.container{
+    max-width: 80vh;
+    margin: auto;
+}
+
+.container form{
+    margin-top: 1rem;
+}
+
+form input{
+    padding: 3px 10px;
+    min-width: 30vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+#result{
+    margin-top: 3rem;
+}
+
+#resultcont div::first-letter{
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 12px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        font-size: 12px;
+        padding-left: 25px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .logo span{
+        font-size: 30px;
+    }
+
+    .logo{
+        padding: 5px 0;
+    }
+}
