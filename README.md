@@ -3,6 +3,10 @@
 A simple and responsive Email Validator web application built using **HTML, CSS, and JavaScript**.  
 This project validates email addresses using an external API and displays real-time results to the user.
 
+## 📸 UI Preview
+<img width="1230" height="955" alt="Email-Validator png" src="https://github.com/user-attachments/assets/5481952f-936e-413f-b2df-c6bb8abf2af9" />
+
+
 **This project uses EmailValidation.io**
 ## Steps to run:
 1. Create a free account on EmailValidation.io
